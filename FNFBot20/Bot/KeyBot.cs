@@ -16,6 +16,7 @@ namespace FNFBot20
         
         public KeyBot()
         {
+            
             kHook = new LowLevelKeyboardHook();
             try
             {
@@ -72,7 +73,10 @@ namespace FNFBot20
         public void KeyPress(byte key, byte scan)
         {
             keybd_event(key, scan, KEYEVENTF_EXTENDEDKEY, 0);
-            Thread.Sleep(25);
+            Random rand = new Random();
+
+            Thread.Sleep(rand.Next(25, 100));
+           
             keybd_event(key, scan, KEYEVENTF_KEYUP, 0);
         }
     }

@@ -142,7 +142,7 @@ namespace FNFBot20
             }
             catch (Exception e)
             {
-                Form1.WriteToConsole("Exception on Play Thread\n" + e);
+                
             }
         }
 
@@ -184,7 +184,8 @@ namespace FNFBot20
                             simulator.Keyboard.KeyDown(VirtualKeyCode.DOWN);
                             Thread.Sleep(Convert.ToInt32(n.Length));
                             simulator.Keyboard.KeyUp(VirtualKeyCode.DOWN);
-                        }
+                            
+                        } 
                         else
                             kBot.KeyPress(0x28, 0x1f);
 
