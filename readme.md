@@ -1,5 +1,11 @@
-# FNFBot Rewrite
-## The better version of FNFBot
+# FNFBot KE
+FNFBot with some personal fixes and touches made by yours truly.
+
+before creating issues saying 'Oh it doesn't work'. Note that This wasn't really made for the public.
+
+Official FNFBot STUFF BELOW
+
+----
 
 ### WARNING!
 
